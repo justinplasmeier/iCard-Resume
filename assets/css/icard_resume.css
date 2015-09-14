@@ -445,6 +445,69 @@ hr {
   left: 7px;
 }
 
+.book-hobby {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #BA4E4E;
+  border-radius: 5px;
+  position: relative
+}
+
+.book-hobby:before{
+  content: "\f02d";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
+.sport-hobby {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #BA4E4E;
+  border-radius: 5px;
+  position: relative
+}
+
+.sport-hobby:before{
+  content: "\f11e";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
+.science-hobby {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #BA4E4E;
+  border-radius: 5px;
+  position: relative
+}
+
+.science-hobby:before{
+  content: "\f0c3";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
 .faded {
     opacity: 0.681;
 }

@@ -4,11 +4,11 @@ iCard-Resume is a theme built on top of bootstrap and other freely available lib
 
 ## Demo
 -------
-You can see the live demo of [iCard-Resume](http://ddbullfrog.com/)
+You can see the live demo of [iCard-Resume](https://justinplasmeier.herokuapp.com/)
 
 This is the web page on desktop browser.
 
-![Desktop](https://github.com/ddbullfrog/iCard-Resume/blob/gh-pages/_assets/normal.jpg)
+![Desktop](https://github.com/ddbullfrog/iCard-Resume/blob/gh-pages/_assets/normal.jpg) running on Heroku.
 
 ## Getting Started
 -------

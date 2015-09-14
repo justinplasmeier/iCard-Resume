@@ -1,7 +1,7 @@
 # Site settings
 title: Justin Plasmeier
 description: Justin Plasmeier's blog
-favicon: /assets/img/avatar.JPG
+favicon: /assets/img/avatar.png
 baseurl: 
 url: https://justinplasmeier.herokuapp.com
 rss_url: /pages/atom.xml
@@ -22,7 +22,7 @@ author:
   weibo:
   github: justinplasmeier
   linkedin: jplasmeier
-  #twitter:
+  twitter:
   gavatar: 
   workHistory:
     - work1:
@@ -31,28 +31,37 @@ author:
       title: Software Engineer - Intern
       started: 2015
       duration: (May 2015 - August 2015)
-      description: "Developed novel web application features in the ASP.NET framework using C#, Javascript, HTML, and CSS for an existing project. Built a custom Windows Forms application in C# from scratch to interface with a SQL database, download information, conditionally restrict SQL table information using logical expressions created from the SQL table. Repaired a C# application to safely retry a data fetch operation. Wrote a comprehensive stored procedure in T-SQL to automate a previously rote data feed import."
+      description: "At Answers, I developed novel web application features for an existing project in the ASP.NET framework using C#, Javascript, HTML, and CSS. For my other project, I built a Windows Forms application from scratch in C# to interface with a SQL database and conditionally restrict data using logical expressions based on the SQL schema. Additionally, I repaired a C# application to safely retry a data fetch operation and wrote a comprehensive stored procedure in T-SQL to automate a tedious data feed import."
     - work2:
       company: Case Western Reserve University Division of Student Affairs
       location: Cleveland, Ohio
       title: Senior Information Systems Assistant
       started: 2013
       duration: (September 2013 - present)
-      description: "Installed, configured, and managed computing equipment in a *networked environment*. Solved user issues by troubleshooting, then repairing hardware and software problems. Developed and maintained content including graphics for divisional websites following established style guidelines."
+      description: "As a student employee for the Student Affairs IT Operations Group, I installed, configured, and managed computing equipment in a networked environment. I also solved user issues by troubleshooting, then repairing hardware and software problems. Furthermore, I developed and maintained online content including graphics for divisional websites following established style guidelines."
     - work3:
       company: Drexel University College of Medicine
       location: Philadelphia, Pennsylvania
       title: HSSRI Research Intern
       started: 2012
       duration: (June 2012 - August 2012)
-      description: Designed, wrote, and implemented an original data analysis algorithm (in Java) to find recurring motor primitive symbol patterns from EMG data. Conducted research using proprietary braided neural electrodes. Presented work at Discovery Day research symposium.
+      description: As part of Drexel's HSSRI Program, I designed, wrote, and implemented an original data analysis algorithm (in Java) to find recurring motor primitive symbol patterns from EMG data. I conducted research using proprietary braided neural electrodes. At the end of the program, I presented my work at the Discovery Day 2012 research symposium.
   educationHistory:
     - education1:
       organization: Case Western Reserve University
       degree: Bachelor of Science
       major: Mathematics
+      degree2: Bachelor of Arts
+      major2: Computer Science
       started: 2013
       duration: (August 2013 - April 2017)
+      showCourseWork: yes
+    - education2:
+      organization: Haverford High School
+      degree: General Education
+      started: 2009
+      duration: (September 2009 - May 2013)
+      description: I completed my high school education at Haverford High School. While at HHS, I was a member of the FIRST Robotics Team and the National Honors Society. Academically, I was an AP Scholar with Distinction and finished with a 4.59/4.0 weighted GPA. I also played Varisty Lacrosse and Soccer.
   courseWork:
     - course:
       number: EECS 338
@@ -85,7 +94,6 @@ author:
        #         * Implemented numerous algorithms for determining matrix decomposition, polynomial interpolation, numerical differentiation and integration, and solutions of differential equations
        #           * Proved error bounds analytically and verified these results programatically in MATLAB
        #             * Computed algorithm efficiency in flops and Big-O notation
-
   languages:
     - language1:
       name: English
@@ -111,15 +119,30 @@ author:
   weakLanguages:
     - lang: Python
     - lang: Swift
-    - lang: MATLAB  
-    - lang: Swift
+    - lang: MATLAB
     - lang: Ruby
   strongSoftware:
     - lang: Windows
-    - lang: Adobe Illustrator
+    - lang: Linux
+    - lang: Jekyll
     - lang: Microsoft SQL Server
     - lang: Visual Studio
+    - lang: Adobe Illustrator
   weakSoftware:
     - lang: Mac OS X
     - lang: Adobe Photoshop
     - lang: AutoCAD
+  otherInterests:
+    - interest1:
+      name: Ultimate Frisbee
+      icon: sport
+    - interest2:
+      name: Soccer
+      icon: sport
+    - interest3:
+      name: Physics
+      icon: science
+    - interest4:
+      name: Philosophy
+      icon: book
+

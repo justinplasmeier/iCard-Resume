@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+                <h3 class="title with-icon"><span class="fa fa-cogs cat-title"></span>Work History</h3>
                 <ul class="timeline">
                     {% for work in site.author.workHistory %}
                         <li class="timeline-inverted">
@@ -64,7 +64,13 @@ layout: default
                                                 {{ education.degree }}
                                             {% endif %}
                                             {% if education.major %}
-                                                , {{ education.major }}
+                                            , {{ education.major }}
+                                            {% endif %}
+                                            {% if education.degree2 %}
+                                                | {{ education.degree2 }}
+                                            {% endif %}
+                                            {% if education.major2 %}
+                                                , {{ education.major2 }}
                                             {% endif %}
                                         </small>
                                     </p>
@@ -79,9 +85,8 @@ layout: default
                                     {% if education.description %}
                                         <p>{{ education.description }}</p>
                                     {% endif %}
-                                    <p><em>Relavent Coursework:</em></p>
-
-                                    {% if site.author.courseWork %}
+                                    {% if site.author.courseWork and education.showCourseWork %}
+                                     <p><em>Relavent Coursework:</em></p>
                                     <ul>
                                         {% for course in site.author.courseWork %}
                                             <li>
@@ -129,23 +134,34 @@ layout: default
                                     {% endif %}
                             </li>
                             <li>
-                                    <h4 class="timeline-title">Software</h4>
-                                    {% if site.author.strongSoftware and site.author.weakSoftware %}
-                                        <p>
+                                <h4 class="timeline-title">Software</h4>
+                                {% if site.author.strongSoftware and site.author.weakSoftware %}
+                                    <p>
                                         {% for software in site.author.strongSoftware %}
-                                            <div class="hobby"> 
-                                                {{ software.lang }}  
-                                            </div>
+                                        <div class="hobby"> 
+                                            {{ software.lang }}  
+                                        </div>
                                         {% endfor %}
                                         {% for weakSoftware in site.author.weakSoftware %}
                                             <div class="hobby faded"> 
                                                 {{ weakSoftware.lang }} 
                                             </div>
                                         {% endfor %}
-                                        </p>
-                                    {% endif %}
+                                    </p>
+                                {% endif %}
                             </li>
-
+                            <li>
+                                <h4 class="timeline-title">Other</h4>
+                                {% if site.author.otherInterests %}
+                                    <p>
+                                        {% for interest in site.author.otherInterests %}
+                                        <div class="{{ interest.icon }}-hobby">
+                                            {{ interest.name }}
+                                        </div>
+                                        {% endfor %}
+                                    </p>
+                                {% endif %}
+                            </li>
                     </ul>
                 </div>
             {% endif %}
