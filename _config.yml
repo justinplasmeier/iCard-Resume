@@ -1,79 +1,125 @@
 # Site settings
-title: ddbullfrog's blog
-description: ddbullfrog's blog
-favicon: /iCard-Resume/assets/img/avatar.JPG
-baseurl: http://ddbullfrog.github.io/iCard-Resume
-url: http://ddbullfrog.github.io/iCard-Resume
-rss_url: /iCard-Resume/pages/atom.xml
+title: Justin Plasmeier
+description: Justin Plasmeier's blog
+favicon: /assets/img/avatar.JPG
+baseurl: 
+url: https://justinplasmeier.herokuapp.com
+rss_url: /pages/atom.xml
+cdn_path: https://dl.dropboxusercontent.com/u/76914999
 
 # Build settings
 markdown: kramdown
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
+  name: Justin Plasmeier
+  title: Math and Computer Science Dual Degree Student
+  address: Cleveland, Ohio
+  email: jplasmeier@gmail.com
+  link: http://jplaz.com
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /iCard-Resume/assets/img/avatar.JPG
+  github: justinplasmeier
+  linkedin: jplasmeier
+  #twitter:
+  gavatar: 
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Answers Corporation
+      location: Cleveland, Ohio
+      title: Software Engineer - Intern
+      started: 2015
+      duration: (May 2015 - August 2015)
+      description: "Developed novel web application features in the ASP.NET framework using C#, Javascript, HTML, and CSS for an existing project. Built a custom Windows Forms application in C# from scratch to interface with a SQL database, download information, conditionally restrict SQL table information using logical expressions created from the SQL table. Repaired a C# application to safely retry a data fetch operation. Wrote a comprehensive stored procedure in T-SQL to automate a previously rote data feed import."
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Case Western Reserve University Division of Student Affairs
+      location: Cleveland, Ohio
+      title: Senior Information Systems Assistant
+      started: 2013
+      duration: (September 2013 - present)
+      description: "Installed, configured, and managed computing equipment in a *networked environment*. Solved user issues by troubleshooting, then repairing hardware and software problems. Developed and maintained content including graphics for divisional websites following established style guidelines."
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Drexel University College of Medicine
+      location: Philadelphia, Pennsylvania
+      title: HSSRI Research Intern
+      started: 2012
+      duration: (June 2012 - August 2012)
+      description: Designed, wrote, and implemented an original data analysis algorithm (in Java) to find recurring motor primitive symbol patterns from EMG data. Conducted research using proprietary braided neural electrodes. Presented work at Discovery Day research symposium.
   educationHistory:
     - education1:
-      organization: Northeastern University
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: Case Western Reserve University
+      degree: Bachelor of Science
+      major: Mathematics
+      started: 2013
+      duration: (August 2013 - April 2017)
+  courseWork:
+    - course:
+      number: EECS 338
+      title: Introduction to Operating Systems and Concurrent Programming
+      term: Fall 2015
+    - course:
+      number: EECS 341 
+      title: Introduction to Database Systems
+      term: Fall 2015
+    - course:
+      number: EECS 233
+      title: Introduction to Data Structures
+      term: Spring 2014
+    - course:
+      number: MATH 330
+      title: Introduction to Scientific Computing
+      term: Spring 2015
+    - course:
+      number: EECS 302
+      title: Discrete Mathematics
+      term: Spring 2014
+    - course:
+      number: EECS 132
+      title: Introduction to Programming in Java
+      term: Fall 2013                    
+      # * Implemented and tested a phonebook abstract data type using LinkedList and ArrayList
+      #  * Designed, implemented, and tested a Huffman encoder using binary trees to encode text files
+      #    * Designed, implemented, and tested a custom hash table to count word occurrence and length
+       #       * Implemented and analytically compared various sorting algorithms under different test cases
+       #         * Implemented numerous algorithms for determining matrix decomposition, polynomial interpolation, numerical differentiation and integration, and solutions of differential equations
+       #           * Proved error bounds analytically and verified these results programatically in MATLAB
+       #             * Computed algorithm efficiency in flops and Big-O notation
+
   languages:
     - language1:
-      name: Chinese
+      name: English
       proficiency: Native
     - language2:
-      name: English
+      name: German
       proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: HTML
-      percentage: 100%
-    - skill2:
-      name: Bootstrap
-      percentage: 90%
-    - skill3:
-      name: JavaScript
-      percentage: 80%
-    - skill4:
-      name: AngularJS
-      percentage: 80%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
+  skills:
+    - entity:
+      category: strongLanguages
+    - entity:
+      category: weakLanguages
+    - entity:
+      category: strongSoftware
+    - entity:
+      category: weakSoftware
+  strongLanguages:
+    - lang: "C#"
+    - lang: Java
+    - lang: SQL/T-SQL
+    - lang: CSS
+    - lang: HTML
+  weakLanguages:
+    - lang: Python
+    - lang: Swift
+    - lang: MATLAB  
+    - lang: Swift
+    - lang: Ruby
+  strongSoftware:
+    - lang: Windows
+    - lang: Adobe Illustrator
+    - lang: Microsoft SQL Server
+    - lang: Visual Studio
+  weakSoftware:
+    - lang: Mac OS X
+    - lang: Adobe Photoshop
+    - lang: AutoCAD

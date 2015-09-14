@@ -63,9 +63,16 @@ hr {
 
 .header img {
     float: left;
-    height: 85px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto;
     margin-right: 15px;
     padding: 11px;
+}
+
+.header .profile-image {
+    max-width: 250px;
 }
 
 .header li {
@@ -135,7 +142,7 @@ hr {
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 3px;
+    width: 0px;
     background-color: #eeeeee;
     margin-left: -1.5px;
     left: 2%;
@@ -415,4 +422,65 @@ hr {
 
 .badge-right-float {
     float: right;
+}
+
+.hobby{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #BA4E4E;
+  border-radius: 5px;
+  position: relative
+}
+
+.hobby:before{
+  content: "\f121";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
+.faded {
+    opacity: 0.681;
+}
+
+.profile-image {
+    max-width: 75%;
+}
+
+.nomargin {
+    margin: 0 0 0 0;
+}
+
+@media (max-width: 600px) {
+    .timeline-badge {
+        display:none;
+    }
+    .timeline > li {
+        margin-left: 5px;
+    }
+    .timeline > li > .timeline-panel:before {
+        display:none;
+    }
+    .timeline > li > .timeline-panel:after {
+        display:none;
+    }
+}
+
+@media (max-width: 385px) and (min-width: 350px) {
+    .overwrap {
+        float: left;
+    }
+}
+
+@media print {
+    .img-circle {
+        height: 50%;
+        width: 50%;
+    }
 }

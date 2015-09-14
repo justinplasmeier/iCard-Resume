@@ -4,7 +4,7 @@ iCard-Resume is a theme built on top of bootstrap and other freely available lib
 
 ## Demo
 -------
-You can see the live demo of [iCard-Resume](http://ddbullfrog.com/iCard-Resume)
+You can see the live demo of [iCard-Resume](http://ddbullfrog.com/)
 
 This is the web page on desktop browser.
 

@@ -46,7 +46,7 @@ layout: default
                 </ul>
             {% endif %}
             {% if site.author.educationHistory %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+                <h3 class="title with-icon"><span class="glyphicon glyphicon-education cat-title"></span>Education History</h3>
                 <ul class="timeline">
                     {% for education in site.author.educationHistory %}
                         <li class="timeline-inverted">
@@ -79,6 +79,26 @@ layout: default
                                     {% if education.description %}
                                         <p>{{ education.description }}</p>
                                     {% endif %}
+                                    <p><em>Relavent Coursework:</em></p>
+
+                                    {% if site.author.courseWork %}
+                                    <ul>
+                                        {% for course in site.author.courseWork %}
+                                            <li>
+                                                {% if course.number %} 
+                                                    {{ course.number }}: 
+                                                {% endif %}
+                                                {% if course.title %}
+                                                    {{ course.title }}
+                                                {% endif %}
+                                                {% if course.term %}
+                                                    - {{ course.term }}
+                                                {% endif %}
+                                            </li>
+                                        {% endfor %}
+
+                                    </ul>
+                                    {% endif %}
                                 </div>
                             </div>
                         </li>
@@ -87,7 +107,49 @@ layout: default
             {% endif %}
         </div>
         <div class="col-md-4">
-            {% if site.author.programmingSkills %}
+            {% if site.author.skills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span>Interests</h3>
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                            <li>
+                                    <h4 class="timeline-title">Languages</h4>
+                                    {% if site.author.strongLanguages and site.author.weakLanguages %}
+                                        <p>
+                                        {% for item in site.author.strongLanguages %}
+                                            <div class="hobby"> 
+                                                {{ item.lang }} 
+                                            </div>
+                                        {% endfor %}
+                                        {% for weak in site.author.weakLanguages %}
+                                            <div class="hobby faded">
+                                                {{ weak.lang }}
+                                            </div>
+                                        {% endfor %}
+                                        </p>
+                                    {% endif %}
+                            </li>
+                            <li>
+                                    <h4 class="timeline-title">Software</h4>
+                                    {% if site.author.strongSoftware and site.author.weakSoftware %}
+                                        <p>
+                                        {% for software in site.author.strongSoftware %}
+                                            <div class="hobby"> 
+                                                {{ software.lang }}  
+                                            </div>
+                                        {% endfor %}
+                                        {% for weakSoftware in site.author.weakSoftware %}
+                                            <div class="hobby faded"> 
+                                                {{ weakSoftware.lang }} 
+                                            </div>
+                                        {% endfor %}
+                                        </p>
+                                    {% endif %}
+                            </li>
+
+                    </ul>
+                </div>
+            {% endif %}
+<!--             {% if site.author.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
@@ -107,7 +169,7 @@ layout: default
                         {% endfor %}
                     </ul>
                 </div>
-            {% endif %}
+            {% endif %} -->
             {% if site.author.languages %}
                 <div class="deviter"></div>
                 <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Language Skills</h3>
@@ -128,7 +190,7 @@ layout: default
             <div class="deviter"></div>
             <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
             <div class="grid-block">
-                <iframe src="https://www.google.com/maps/embed/v1/place?q=auckland&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=cleveland&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
             </div>
         </div>
     </div>

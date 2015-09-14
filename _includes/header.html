@@ -1,9 +1,11 @@
 <div class="header">
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="col-sm-4">
-                <img src="../assets/img/avatar.JPG" title="Avatar" alt="My Avatar">
-                <h4>{{ site.author.name }}</h4>
+            <div class="col-sm-4 profile-image">
+                    <img src="{{site.cdn_path}}/isla%20mujeres%20headshot%20b%20square.jpg" title="Profile Picture" alt="Profile Picture" class="img-circle"/>
+            </div>
+            <div class="col-sm-4 overwrap">
+                <h4 style="margin-top:0px;" >{{ site.author.name }}</h4>
                 <p>{{ site.author.title }}</p>
                 <p class="muted">{{ site.author.address }}</p>
                 <div class="clearfix"></div>
@@ -12,11 +14,13 @@
                 <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
                 <p><i class="fa fa-github fa-fw"></i><a href="https://github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
                 <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
+                {% if site.author.twitter %}
                 <p><i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
+                {% endif %}
             </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block">
+<!--             <div class="col-sm-4 visible-md-block visible-lg-block">
                 <a href="#" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
