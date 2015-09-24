@@ -23,70 +23,7 @@ author:
   github: justinplasmeier
   linkedin: jplasmeier
   twitter:
-  gavatar: 
-  workHistory:
-    - work1:
-      company: Answers Corporation
-      location: Cleveland, Ohio
-      title: Software Engineer - Intern
-      started: 2015
-      duration: (May 2015 - August 2015)
-      description: "At Answers, I developed novel web application features for an existing project in the ASP.NET framework using C#, Javascript, HTML, and CSS. For my other project, I built a Windows Forms application from scratch in C# to interface with a SQL database and conditionally restrict data using logical expressions based on the SQL schema. Additionally, I repaired a C# application to safely retry a data fetch operation and wrote a comprehensive stored procedure in T-SQL to automate a tedious data feed import."
-    - work2:
-      company: Case Western Reserve University Division of Student Affairs
-      location: Cleveland, Ohio
-      title: Senior Information Systems Assistant
-      started: 2013
-      duration: (September 2013 - present)
-      description: "As a student employee for the Student Affairs IT Operations Group, I installed, configured, and managed computing equipment in a networked environment. I also solved user issues by troubleshooting, then repairing hardware and software problems. Furthermore, I developed and maintained online content including graphics for divisional websites following established style guidelines."
-    - work3:
-      company: Drexel University College of Medicine
-      location: Philadelphia, Pennsylvania
-      title: HSSRI Research Intern
-      started: 2012
-      duration: (June 2012 - August 2012)
-      description: As part of Drexel's HSSRI Program, I designed, wrote, and implemented an original data analysis algorithm (in Java) to find recurring motor primitive symbol patterns from EMG data. I conducted research using proprietary braided neural electrodes. At the end of the program, I presented my work at the Discovery Day 2012 research symposium.
-  educationHistory:
-    - education1:
-      organization: Case Western Reserve University
-      degree: Bachelor of Science
-      major: Mathematics
-      degree2: Bachelor of Arts
-      major2: Computer Science
-      started: 2013
-      duration: (August 2013 - April 2017)
-      showCourseWork: yes
-    - education2:
-      organization: Haverford High School
-      degree: General Education
-      started: 2009
-      duration: (September 2009 - May 2013)
-      description: I completed my high school education at Haverford High School. While at HHS, I was a member of the FIRST Robotics Team and the National Honors Society. Academically, I was an AP Scholar with Distinction and finished with a 4.59/4.0 weighted GPA. I also played Varisty Lacrosse and Soccer.
-  courseWork:
-    - course:
-      number: EECS 338
-      title: Introduction to Operating Systems and Concurrent Programming
-      term: Fall 2015
-    - course:
-      number: EECS 341 
-      title: Introduction to Database Systems
-      term: Fall 2015
-    - course:
-      number: EECS 233
-      title: Introduction to Data Structures
-      term: Spring 2014
-    - course:
-      number: MATH 330
-      title: Introduction to Scientific Computing
-      term: Spring 2015
-    - course:
-      number: EECS 302
-      title: Discrete Mathematics
-      term: Spring 2014
-    - course:
-      number: EECS 132
-      title: Introduction to Programming in Java
-      term: Fall 2013                    
+  gavatar:                   
       # * Implemented and tested a phonebook abstract data type using LinkedList and ArrayList
       #  * Designed, implemented, and tested a Huffman encoder using binary trees to encode text files
       #    * Designed, implemented, and tested a custom hash table to count word occurrence and length
@@ -116,6 +53,7 @@ author:
     - lang: SQL/T-SQL
     - lang: CSS
     - lang: HTML
+    - lang: Javascript
   weakLanguages:
     - lang: C
     - lang: Python
