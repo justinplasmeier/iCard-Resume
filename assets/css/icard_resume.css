@@ -520,6 +520,11 @@ hr {
     margin: 0 0 0 0;
 }
 
+strong {
+    font-weight: 900;
+    font-size: 15px;
+}
+
 @media (max-width: 600px) {
     .timeline-badge {
         display:none;
