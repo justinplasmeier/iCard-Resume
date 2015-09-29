@@ -91,14 +91,20 @@ layout: default
                                     {% if site.author.strongLanguages and site.author.weakLanguages %}
                                         <p>
                                         {% for item in site.author.strongLanguages %}
-                                            <div class="hobby"> 
-                                                {{ item.lang }} 
+                                        <a data-toggle="tooltip" data-original-title="{{ item.info }}">
+                                            <div style="display: inline">
                                             </div>
+                                            <div class="hobby"> 
+                                                {{ item.lang }}
+                                            </div>
+                                        </a>
                                         {% endfor %}
                                         {% for weak in site.author.weakLanguages %}
+                                        <a data-toggle="tooltip" data-original-title="{{ weak.lang }}">
                                             <div class="hobby faded">
                                                 {{ weak.lang }}
                                             </div>
+                                        </a>
                                         {% endfor %}
                                         </p>
                                     {% endif %}
@@ -108,14 +114,20 @@ layout: default
                                 {% if site.author.strongSoftware and site.author.weakSoftware %}
                                     <p>
                                         {% for software in site.author.strongSoftware %}
+                                        <div style="display: inline">
+                                        </div>
+                                        <a data-toggle="tooltip" data-original-title="{{ software.lang }}">
                                         <div class="hobby"> 
                                             {{ software.lang }}  
                                         </div>
+                                        </a>
                                         {% endfor %}
                                         {% for weakSoftware in site.author.weakSoftware %}
+                                        <a data-toggle="tooltip" data-original-title="{{ weakSoftware.lang }}">
                                             <div class="hobby faded"> 
                                                 {{ weakSoftware.lang }} 
                                             </div>
+                                        </a>
                                         {% endfor %}
                                     </p>
                                 {% endif %}
@@ -125,9 +137,13 @@ layout: default
                                 {% if site.author.otherInterests %}
                                     <p>
                                         {% for interest in site.author.otherInterests %}
+                                        <div style="display: inline">
+                                        </div>
+                                        <a data-toggle="tooltip" data-original-title="{{ interest.name }}">
                                         <div class="{{ interest.icon }}-hobby">
                                             {{ interest.name }}
                                         </div>
+                                        </a>
                                         {% endfor %}
                                     </p>
                                 {% endif %}
