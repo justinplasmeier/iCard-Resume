@@ -49,17 +49,22 @@ author:
       category: weakSoftware
   strongLanguages:
     - lang: "C#"
+      info: "At Answers, I built a Windows Forms application from scratch in C# to interface with a SQL database and conditionally restrict data using logical expressions based on the SQL schema. Additionally, I repaired a C# application to safely retry a data fetch operation"
     - lang: Java
+      info: I've used Java in both Intro to Programming and Intro to Data Structures. In Data Strucutures, I designed, implemented, and tested a Huffman encoder using binary trees to encode text files. I also designed, implemented, and tested a custom hash table to count word occurrence and length. I implemented and analytically compared various sorting algorithms under different test cases.
     - lang: SQL/T-SQL
+      info: At Answers, I used SQL nearly every day to access product data. For one of the projects I worked on, I wrote a comprehensive stored procedure in T-SQL to automate a tedious data feed import.
     - lang: CSS
+      info: At Answers, I developed application features and wrote CSS rules to incorporate user interactive elements of the featres in the user interface. I also wrote additional CSS rules to modify the template of this resume. 
     - lang: HTML
+      info: Throughout my experience with web development I have made use of HTML. For this resume, I have used Jekyll, Markdown, and Liquid to parse information into HTML.
     - lang: Javascript
+      info: At Asnwers, I used Javascript to help implement application features. 
   weakLanguages:
     - lang: C
-    - lang: Python
+    - lang: "Python"
     - lang: Swift
-    - lang: MATLAB
-    - lang: Ruby
+    - lang: "MATLAB"
   strongSoftware:
     - lang: Windows
     - lang: Linux
@@ -68,6 +73,7 @@ author:
     - lang: Visual Studio
     - lang: Adobe Illustrator
   weakSoftware:
+    - lang: Node.js
     - lang: Mac OS X
     - lang: Adobe Photoshop
     - lang: AutoCAD

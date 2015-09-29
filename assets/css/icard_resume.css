@@ -9,6 +9,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+        color: #333;
+    text-decoration: none;
+}
+
 .btn-dark {
     color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
