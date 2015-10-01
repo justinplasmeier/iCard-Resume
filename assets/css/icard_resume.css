@@ -230,6 +230,7 @@ hr {
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+    cursor: default;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -352,6 +353,7 @@ hr {
     margin-bottom: 6px;
     border-radius: 5px;
     background: #4B6F78;
+    cursor: default;
 }
 
 .list-strip li:nth-child(even) {
@@ -438,7 +440,8 @@ hr {
   padding: 5px 5px 5px 25px;
   background: #BA4E4E;
   border-radius: 5px;
-  position: relative
+  position: relative;
+  cursor: default
 }
 
 .hobby:before{
@@ -459,7 +462,8 @@ hr {
   padding: 5px 5px 5px 25px;
   background: #BA4E4E;
   border-radius: 5px;
-  position: relative
+  position: relative;
+  cursor: default
 }
 
 .book-hobby:before{
@@ -480,7 +484,8 @@ hr {
   padding: 5px 5px 5px 25px;
   background: #BA4E4E;
   border-radius: 5px;
-  position: relative
+  position: relative;
+  cursor: default
 }
 
 .sport-hobby:before{
@@ -501,7 +506,8 @@ hr {
   padding: 5px 5px 5px 25px;
   background: #BA4E4E;
   border-radius: 5px;
-  position: relative
+  position: relative;
+  cursor: default;
 }
 
 .science-hobby:before{

@@ -100,7 +100,7 @@ layout: default
                                         </a>
                                         {% endfor %}
                                         {% for weak in site.author.weakLanguages %}
-                                        <a data-toggle="tooltip" data-original-title="{{ weak.lang }}">
+                                        <a data-toggle="tooltip" data-original-title="{{ weak.info }}">
                                             <div class="hobby faded">
                                                 {{ weak.lang }}
                                             </div>
@@ -110,20 +110,20 @@ layout: default
                                     {% endif %}
                             </li>
                             <li>
-                                <h4 class="timeline-title">Software</h4>
+                                <h4 class="timeline-title">Technologies</h4>
                                 {% if site.author.strongSoftware and site.author.weakSoftware %}
                                     <p>
                                         {% for software in site.author.strongSoftware %}
                                         <div style="display: inline">
                                         </div>
-                                        <a data-toggle="tooltip" data-original-title="{{ software.lang }}">
+                                        <a data-toggle="tooltip" data-original-title="{{ software.info }}">
                                         <div class="hobby"> 
                                             {{ software.lang }}  
                                         </div>
                                         </a>
                                         {% endfor %}
                                         {% for weakSoftware in site.author.weakSoftware %}
-                                        <a data-toggle="tooltip" data-original-title="{{ weakSoftware.lang }}">
+                                        <a data-toggle="tooltip" data-original-title="{{ weakSoftware.info }}">
                                             <div class="hobby faded"> 
                                                 {{ weakSoftware.lang }} 
                                             </div>

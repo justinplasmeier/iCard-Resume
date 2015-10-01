@@ -59,24 +59,38 @@ author:
     - lang: HTML
       info: Throughout my experience with web development I have made use of HTML. For this resume, I have used Jekyll, Markdown, and Liquid to parse information into HTML.
     - lang: Javascript
-      info: At Asnwers, I used Javascript to help implement application features. 
+      info: "At Answers, I used Javascript to help implement features along with jQuery to make calls in a Model-View-Controller environment in an existing web application."
   weakLanguages:
     - lang: C
+      info: I have used some C for small projects and am learning more about C in my Operating Systems class. 
     - lang: "Python"
+      info: I have used Python for several small projects and have experience with the language. 
     - lang: Swift
+      info: "I have completed some tutorials about Swift and iOS App Development, but I haven't done anything significant on my own."
     - lang: "MATLAB"
+      info: I used MATLAB to write routines in my Scientific Computing class to approximate integrals, differentiation, and to solve differential equations within a theoretical error bound.
   strongSoftware:
     - lang: Windows
+      info: I have been using Windows computers for as long as I can remember, and have used some of the more advanced features at Student Affairs IT.
     - lang: Linux
+      info: I have experience using Linux and have set up many differently configured Linux machines. I have experience with bash and am comfortable working in the CLI environment.
     - lang: Jekyll
+      info: This resume uses Jekyll. The original template did not actually make use of the posts system in Jekyll, so I rewrote the HTML to actually use posts and Markdown.
     - lang: Microsoft SQL Server
+      info: At Answers, I used Microsoft SQL Server to connect to databases, write queries, and preform jobs.
     - lang: Visual Studio
+      info: All of the development work I did at Answers outside of SQL took place within Visual Studio. 
     - lang: Adobe Illustrator
+      info: At Student Affairs IT, I used Adobe Illustrator to create logo elements and edit existing maps. I have also used Illustrator to create graphics for personal projects.
   weakSoftware:
     - lang: Node.js
+      info: I am currently working through the Nodeschool workshops, and have attended Meetups for Nodeschool.
     - lang: Mac OS X
+      info: "I am proficient at using Mac OS X, though I haven't used many of the more advanced features."
     - lang: Adobe Photoshop
+      info: I have used Photoshop for many small projects, and am comfortable using Photoshop to edit images and other simpler tasks.
     - lang: AutoCAD
+      info: I took a very comprehensive AutoCAD class in High School and have some outside experience with mechanical drawing. 
   otherInterests:
     - interest1:
       name: Ultimate Frisbee
@@ -90,4 +104,5 @@ author:
     - interest4:
       name: Philosophy
       icon: book
+      info: I enjoy reading books about the philosophy of the mind, mathematics, and language. 
 
