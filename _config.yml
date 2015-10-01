@@ -95,14 +95,21 @@ author:
     - interest1:
       name: Ultimate Frisbee
       icon: sport
+      info: I started playing Ultimate at Case and have loved every minute of it. I have played for the Cleveland Mixed team and currently play for the CWRU Fighting Gobies. 
     - interest2:
       name: Soccer
       icon: sport
+      info: I've been playing soccer for most of my ambulatory life and am always up for a game. 
     - interest3:
       name: Physics
       icon: science
+      info: I love learning about ideas and concepts in Physics, especially special and general relativity, quantum mechaincs, and quantum cosmology. 
     - interest4:
       name: Philosophy
       icon: book
-      info: I enjoy reading books about the philosophy of the mind, mathematics, and language. 
+      info: I enjoy reading books about the philosophy of the mind, mathematics, and language. My favorite authors lately have been Buckminster Fuller and Ludwig Wittgenstein.
+    - interest5:
+      name: Investing
+      icon: money
+      info: I have a considerable portion of my savings invested in the stock market. I have traded stocks at weekly frequency but have since switched primarily to index funds for ease of management. I would like to learn more about Computational Investing.
 

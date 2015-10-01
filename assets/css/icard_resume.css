@@ -520,6 +520,28 @@ hr {
   left: 7px;
 }
 
+.money-hobby {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #BA4E4E;
+  border-radius: 5px;
+  position: relative;
+  cursor: default;
+}
+
+.money-hobby:before{
+  content: "\f080";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
 .faded {
     opacity: 0.681;
 }
