@@ -78,6 +78,10 @@ author:
       info: This resume uses Jekyll. The original template did not actually make use of the posts system in Jekyll, so I rewrote the HTML to actually use posts and Markdown.
     - lang: Microsoft SQL Server
       info: At Answers, I used Microsoft SQL Server to connect to databases, write queries, and preform jobs.
+    - lang: Git
+      info: At Answers, I learned how to use Git for version control, and have used it for all of my projects since.
+    - lang: Agile/Scrum
+      info: At Answers, my team used Agile and Scrum to manage application development. I participated in MWF standups and biweekly sprint review meetings.
     - lang: Visual Studio
       info: All of the development work I did at Answers outside of SQL took place within Visual Studio. 
     - lang: Adobe Illustrator
