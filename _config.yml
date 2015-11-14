@@ -89,13 +89,14 @@ author:
   weakSoftware:
     - lang: Node.js
       info: I am currently working through the Nodeschool workshops, and have attended Meetups for Nodeschool.
+    - lang: React
+      info: I have been learning React and have started working on a larger project to hone my skills with React.
     - lang: Mac OS X
       info: "I am proficient at using Mac OS X, though I haven't used many of the more advanced features."
     - lang: Adobe Photoshop
       info: I have used Photoshop for many small projects, and am comfortable using Photoshop to edit images and other simpler tasks.
-    - lang: AutoCAD
-      info: I took a very comprehensive AutoCAD class in High School and have some outside experience with mechanical drawing. 
-  otherInterests:
+#React, Django, Meteor 
+ otherInterests:
     - interest1:
       name: Ultimate Frisbee
       icon: sport

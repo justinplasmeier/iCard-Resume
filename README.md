@@ -2,13 +2,15 @@
 -------
 iCard-Resume is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal resume.
 
+I forked this from ddbullfrog's [original resume app.](https://github.com/ddbullfrog/iCard-Resume). My fork changes the way skills are displayed from a progress bar style to blocks with hover info, and some other minor changes. I also rewrote the cards to adhere to better Jekyll style; each card is its own "post" containing the relevant info, rather than shoving all of the information into the config file.
+
 ## Demo
 -------
-You can see the live demo of [iCard-Resume](https://justinplasmeier.herokuapp.com/)
+You can see the live demo of [iCard-Resume](https://justinplasmeier.github.io/iCard-Resume/)
 
 This is the web page on desktop browser.
 
-![Desktop](https://github.com/ddbullfrog/iCard-Resume/blob/gh-pages/_assets/normal.jpg) running on Heroku.
+![Desktop](https://www.dropbox.com/s/0q3ohvdr4wfv0bc/resume-example.png) running on GitHub Pages.
 
 ## Getting Started
 -------
