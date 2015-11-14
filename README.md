@@ -10,7 +10,7 @@ You can see the live demo of [iCard-Resume](https://justinplasmeier.github.io/iC
 
 This is the web page on desktop browser.
 
-![Desktop](https://www.dropbox.com/s/0q3ohvdr4wfv0bc/resume-example.png) running on GitHub Pages.
+![Desktop](https://github.com/justinplasmeier/iCard-Resume/blob/gh-pages/_assets/example.png) running on GitHub Pages.
 
 ## Getting Started
 -------
