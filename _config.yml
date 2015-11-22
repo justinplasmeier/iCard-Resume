@@ -95,8 +95,9 @@ author:
       info: "I am proficient at using Mac OS X, though I haven't used many of the more advanced features."
     - lang: Adobe Photoshop
       info: I have used Photoshop for many small projects, and am comfortable using Photoshop to edit images and other simpler tasks.
-#React, Django, Meteor 
- otherInterests:
+    - lang: AutoCAD
+      info: I took a very comprehensive AutoCAD class in High School and have some outside experience with mechanical drawing. 
+  otherInterests:
     - interest1:
       name: Ultimate Frisbee
       icon: sport
