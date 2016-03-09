@@ -22,8 +22,7 @@ author:
   weibo:
   github: justinplasmeier
   linkedin: jplasmeier
-  twitter: justinplasmeier
-  blog: http://jplaz.com
+  twitter:
   gavatar:                   
       # * Implemented and tested a phonebook abstract data type using LinkedList and ArrayList
       #  * Designed, implemented, and tested a Huffman encoder using binary trees to encode text files
