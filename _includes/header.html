@@ -17,6 +17,12 @@
                 {% if site.author.twitter %}
                 <p><i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
                 {% endif %}
+		{% if site.author.blog %}
+		<p><i class="fa fa-folder-o fa-fw"></i><a href="http://jplaz.com/" target="_blank">  My blog! </a></p>
+		{% endif %}
+		{% if site.author.resume %}
+		<p><i class="fa fa-print fa-fw"></i><a href="{{ site.author.resume }}" target="_blank">  Print Resume </a></p>
+		{% endif %}
             </div>
 <!--             <div class="col-sm-4 visible-md-block visible-lg-block">
                 <a href="#" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf</a>

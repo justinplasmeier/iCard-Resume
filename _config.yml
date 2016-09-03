@@ -2,8 +2,8 @@
 title: Justin Plasmeier
 description: Justin Plasmeier's blog
 favicon: /assets/img/avatar.png
-baseurl: http://jplaz.com//
 url: http://jplaz.com
+baseurl: /resume
 rss_url: /pages/atom.xml
 cdn_path: https://dl.dropboxusercontent.com/u/76914999
 
@@ -22,7 +22,9 @@ author:
   weibo:
   github: justinplasmeier
   linkedin: jplasmeier
-  twitter:
+  twitter: justinplasmeier
+  blog: http://jplaz.com
+  resume: http://jplaz.com/resume/PrintResumeSummer2016.pdf
   gavatar:                   
       # * Implemented and tested a phonebook abstract data type using LinkedList and ArrayList
       #  * Designed, implemented, and tested a Huffman encoder using binary trees to encode text files
@@ -49,15 +51,13 @@ author:
       category: weakSoftware
   strongLanguages:
     - lang: "C#"
-      info: "At Answers, I built a Windows Forms application from scratch in C# to interface with a SQL database and conditionally restrict data using logical expressions based on the SQL schema. Additionally, I repaired a C# application to safely retry a data fetch operation"
+      info: "At Answers I used C# to develop a data migration tool to automate importing product information from SQL to our web app. At Concur, I used C# to develop the new Travel Profile page and to create a browser testing automation framework with automatic test generation capabilities."
     - lang: Java
       info: I've used Java in both Intro to Programming and Intro to Data Structures. In Data Strucutures, I designed, implemented, and tested a Huffman encoder using binary trees to encode text files. I also designed, implemented, and tested a custom hash table to count word occurrence and length. I implemented and analytically compared various sorting algorithms under different test cases.
     - lang: SQL/T-SQL
       info: At Answers, I used SQL nearly every day to access product data. For one of the projects I worked on, I wrote a comprehensive stored procedure in T-SQL to automate a tedious data feed import.
     - lang: "Python"
       info: I have used Python at Concepts Collective to build web applications, as well as in various other projects that I have worked on.
-    - lang: "Hadoop"
-      info: In my Independent Study with a Case Medical School professor working in Medical Informatics, I configured Hadoop clusters and implemented MapReducde and Pig code on the clusters.
     - lang: CSS
       info: At Answers, I developed application features and wrote CSS to incorporate user interactive elements of the featres in the user interface. I also wrote additional CSS to modify the template of this resume. 
     - lang: HTML5
@@ -67,8 +67,8 @@ author:
   weakLanguages:
     - lang: C
       info: I have used some C for small projects and am learning more about C in my Operating Systems class. 
-    - lang: Swift
-      info: "I have completed some tutorials about Swift and iOS App Development, but I haven't done anything significant on my own."
+    - lang: Perl 
+      info: I used Perl at Concur to automatically generate test cases within the browser testing automation project. By parsing the abstract classes and taking browser choices as input, we avoided having to manually write test cases resulting in an order of magnitude of better test coverage than what would have been possible manually.
     - lang: "MATLAB"
       info: I used MATLAB to write routines in my Scientific Computing class to approximate integrals, differentiation, and to solve differential equations within a theoretical error bound.
   strongSoftware:
@@ -85,20 +85,16 @@ author:
     - lang: Agile/Scrum
       info: At Answers, my team used Agile and Scrum to manage application development. I participated in MWF standups and biweekly sprint review meetings.
     - lang: Visual Studio
-      info: All of the development work I did at Answers outside of SQL took place within Visual Studio. 
-    - lang: Adobe Illustrator
-      info: At Student Affairs IT, I used Adobe Illustrator to create logo elements and edit existing maps. I have also used Illustrator to create graphics for personal projects.
+      info: All of the development work I did at Answers and Concur aside from SQL took place within Visual Studio. 
   weakSoftware:
-    - lang: Node.js
-      info: I am currently working through the Nodeschool workshops, and have attended Meetups for Nodeschool.
-    - lang: React
-      info: I have been learning React and have started working on a larger project to hone my skills with React.
     - lang: Mac OS X
       info: "I am proficient at using Mac OS X, though I haven't used many of the more advanced features."
-    - lang: Adobe Photoshop
-      info: I have used Photoshop for many small projects, and am comfortable using Photoshop to edit images and other simpler tasks.
-    - lang: AutoCAD
-      info: I took a very comprehensive AutoCAD class in High School and have some outside experience with mechanical drawing. 
+    - lang: Beaker
+      info: I have played around with TwoSigma's Beaker notebook and used it to replace boilerplate file reading and writing in homework assignments.
+    - lang: SVN
+      info: Concur's monolith used SVN, but I only made a few commits to the monolith itself.
+    - lang: Selenium
+      info: The browser testing automation project that I developed at Concur used WebDriver to run tests against the UI. Most of my work dealt with the architecture around the test cases rather than the actual tests.
   otherInterests:
     - interest1:
       name: Ultimate Frisbee
