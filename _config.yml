@@ -15,7 +15,7 @@ exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefil
 # Author settings
 author:
   name: Justin Plasmeier
-  title: Math and Computer Science Dual Degree Student
+  title: Math and Computer Science Student
   address: Cleveland, Ohio
   email: jplasmeier@gmail.com
   link: http://jplaz.com
@@ -24,7 +24,7 @@ author:
   linkedin: jplasmeier
   twitter: justinplasmeier
   blog: http://jplaz.com
-  resume: http://jplaz.com/resume/PrintResumeSummer2016.pdf
+  resume: http://jplaz.com/resume/PrintResume.pdf
   gavatar:                   
       # * Implemented and tested a phonebook abstract data type using LinkedList and ArrayList
       #  * Designed, implemented, and tested a Huffman encoder using binary trees to encode text files
