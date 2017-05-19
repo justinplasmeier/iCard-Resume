@@ -10,7 +10,7 @@
                 <p class="muted">{{ site.author.address }}</p>
                 <div class="clearfix"></div>
             </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
+            <div class="col-sm-4 profile-info">
                 <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
                 <p><i class="fa fa-github fa-fw"></i><a href="https://github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
                 <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
@@ -18,7 +18,7 @@
                 <p><i class="fa fa-twitter fa-fw"></i> <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
                 {% endif %}
 		{% if site.author.blog %}
-		<p><i class="fa fa-folder-o fa-fw"></i><a href="http://jplaz.com/" target="_blank">  My blog! </a></p>
+		<p><i class="fa fa-folder-o fa-fw"></i><a href="https://jplaz.com/" target="_blank">  My blog! </a></p>
 		{% endif %}
 		{% if site.author.resume %}
 		<p><i class="fa fa-print fa-fw"></i><a href="{{ site.author.resume }}" target="_blank">  Print Resume </a></p>
