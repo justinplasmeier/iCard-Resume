@@ -15,24 +15,17 @@ exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefil
 # Author settings
 author:
   name: Justin Plasmeier
-  title: Math and Computer Science Student
+  title: Computer Science and Mathematics Student
   address: Cleveland, Ohio
   email: jplasmeier@gmail.com
-  link: http://jplaz.com
+  link: https://jplaz.com
   weibo:
   github: justinplasmeier
   linkedin: jplasmeier
   twitter: justinplasmeier
-  blog: http://jplaz.com
-  resume: http://jplaz.com/resume/PrintResume.pdf
+  blog: https://jplaz.com
+  resume: https://jplaz.com/resume/PrintResume.pdf
   gavatar:                   
-      # * Implemented and tested a phonebook abstract data type using LinkedList and ArrayList
-      #  * Designed, implemented, and tested a Huffman encoder using binary trees to encode text files
-      #    * Designed, implemented, and tested a custom hash table to count word occurrence and length
-       #       * Implemented and analytically compared various sorting algorithms under different test cases
-       #         * Implemented numerous algorithms for determining matrix decomposition, polynomial interpolation, numerical differentiation and integration, and solutions of differential equations
-       #           * Proved error bounds analytically and verified these results programatically in MATLAB
-       #             * Computed algorithm efficiency in flops and Big-O notation
   languages:
     - language1:
       name: English
@@ -53,7 +46,7 @@ author:
     - lang: "C#"
       info: "At Answers I used C# to develop a data migration tool to automate importing product information from SQL to our web app. At Concur, I used C# to develop the new Travel Profile page and to create a browser testing automation framework with automatic test generation capabilities."
     - lang: Java
-      info: I've used Java in both Intro to Programming and Intro to Data Structures. In Data Strucutures, I designed, implemented, and tested a Huffman encoder using binary trees to encode text files. I also designed, implemented, and tested a custom hash table to count word occurrence and length. I implemented and analytically compared various sorting algorithms under different test cases.
+      info: I've worked with Java projects of all sizes, including enterprise. 
     - lang: SQL/T-SQL
       info: At Answers, I used SQL nearly every day to access product data. For one of the projects I worked on, I wrote a comprehensive stored procedure in T-SQL to automate a tedious data feed import.
     - lang: "Python"
@@ -81,7 +74,7 @@ author:
     - lang: Microsoft SQL Server
       info: At Answers, I used Microsoft SQL Server to connect to databases, write queries, and preform jobs.
     - lang: Git
-      info: At Answers, I learned how to use Git for version control, and have used it for all of my projects since.
+      info: I have used Git for version control for years. It's great. 
     - lang: Agile/Scrum
       info: At Answers, my team used Agile and Scrum to manage application development. I participated in MWF standups and biweekly sprint review meetings.
     - lang: Visual Studio
@@ -92,7 +85,7 @@ author:
     - lang: Beaker
       info: I have played around with TwoSigma's Beaker notebook and used it to replace boilerplate file reading and writing in homework assignments.
     - lang: SVN
-      info: Concur's monolith used SVN, but I only made a few commits to the monolith itself.
+      info: My team at Concur used SVN, but I much prefer Git.
     - lang: Selenium
       info: The browser testing automation project that I developed at Concur used WebDriver to run tests against the UI. Most of my work dealt with the architecture around the test cases rather than the actual tests.
   otherInterests:
@@ -112,8 +105,3 @@ author:
       name: Philosophy
       icon: book
       info: I enjoy reading books about the philosophy of the mind, mathematics, and language. My favorite authors lately have been Buckminster Fuller and Ludwig Wittgenstein.
-    - interest5:
-      name: Investing
-      icon: money
-      info: I have a considerable portion of my savings invested in the stock market. I have traded stocks at weekly frequency but have since switched primarily to index funds for ease of management. I would like to learn more about Computational Investing.
-
